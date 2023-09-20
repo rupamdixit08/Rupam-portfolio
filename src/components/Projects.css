@@ -1,0 +1,46 @@
+/* Projects.css */
+.projects {
+  padding: 40px;
+  padding-top: 10px;
+}
+
+.projects h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project {
+  width: calc(33.33% - 20px);
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+  font-size: 1.5rem;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.project p {
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.project a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
